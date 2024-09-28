@@ -572,7 +572,7 @@ Download Amazing App from play store: https://play.google.com/store/apps/details
   }
 
   String _getDisplayAmount(double amount) {
-    if (amount >= 10000000) {
+    if (amount >= 100000000) {
       return '${(amount / 10000000).toStringAsFixed(2)} Crore';
     } else if (amount >= 100000) {
       return '${(amount / 100000).toStringAsFixed(2)} Lakhs';
